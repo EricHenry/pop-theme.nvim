@@ -1,5 +1,5 @@
 
-local c = require('pop-theme.palette')
+local c = require('pop_theme.palette')
 
 local hl = vim.api.nvim_set_hl
 local theme = {}

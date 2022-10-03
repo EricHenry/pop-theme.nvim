@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('pop-theme.theme')
+local theme = require('pop_theme.theme')
 
 M.setup = function()
   vim.cmd('hi clear')
@@ -10,7 +10,7 @@ M.setup = function()
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = 'pop-theme'
+  vim.g.colors_name = 'pop_theme'
 
   theme.set_highlights()
 end
